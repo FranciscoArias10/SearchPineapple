@@ -1,0 +1,80 @@
+body {
+  background-color: #ffeb00;
+  background-image: url("./imag/piñas42.png");
+  background-position: center;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 95vh;
+}
+.container__form {
+  background-color: #ffd700;
+  border-radius: 35px;
+  padding: 100px;
+}
+h2 {
+  text-align: center;
+}
+p {
+  text-align: center;
+  color: #4b0082;
+  font-family: SuperMario256;
+}
+p:hover {
+  color: red;
+}
+@font-face {
+  font-family: SuperMario256;
+  src: url("./SuperMario256.ttf");
+}
+input {
+  display: block;
+  width: 400px;
+  height: 50px;
+  margin-bottom: 40px;
+  padding: 0 15px;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  background: #85c4ff;
+  border-radius: 20px;
+}
+input:hover {
+  color: red;
+}
+.bn {
+  width: 300px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  margin-top: 40px;
+  border: none;
+  border-bottom: 4px saddlebrown coral;
+  margin-left: 50px;
+}
+.cek {
+  width: 15px;
+  height: 15px;
+  display: inline;
+}
+
+label {
+  color: #4b0082;
+  font-family: SuperMario256;
+}
+a {
+  text-decoration: none;
+  color: #85c4ff;
+  margin-left: 74px;
+}
+a:hover {
+  color: #4b0082;
+}
+
+label:hover {
+  color: red;
+}
+.bn:active {
+  background-color: #85c4ff;
+}
